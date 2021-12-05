@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;}
+#bd{
+    background-color: #2F375B;
+   
+}
+#projects {
+    background-color: #99C5D2;}
+.projects {
+        display: flex;
+        flex-wrap: wrap;
+       
+        justify-content: space-around;
+        align-content: space-around;}
+nav{
+    background-color: #607993;
+    display: flex;/*lkol fard niveau*/
+}
+#nav-projects {
+background-color: #607993;
+display: flex;}
+#projects h1 {
+    font-family: Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    padding-top: 10px;
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bolder;}
+
+.project h3 {
+            text-align: center;
+            color: goldenrod;
+            font-weight: bolder;
+            font-size: 26px;
+            font-family: cursive;
+            padding: 10px;}
+.content {
+                display: flex;
+                justify-content: space-around;}
+
+.project p {
+                        color: white;
+                        text-align: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                        margin-bottom: 10px;}
+p {
+ display: block;}
+.project a {
+    text-decoration: none;
+    color: white;
+    border: solid white 0.5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 6px;
+    padding: 10px;}
+.technologies h6 {
+        color: grey; }                 
+nav h1{
+    color: white;
+    margin-left:5%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: 'Times New Roman';
+    padding: 10px 0px;
+    font-weight: bold;
+    margin: 0px 0px 0px 54.9px;
+    /*kif t7ot el curseur  3al h1 tepointi (todher yed)*/ 
+}
+ul{
+    display: flex;
+    margin-left: 65%;
+    color:#607993; 
+}
+ul li{
+   
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+ul li a{
+    color:white;
+   text-decoration: none; 
+}
+footer{
+    display: flex;
+    background-color: #353535;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+    
+    
+
+
+footer .menuContact{
+    margin-bottom: 10px;
+}
+div{
+    display: block;
+}
+footer .menuSocial {
+    margin-top: 70px;
+}
+h1{
+    display: block;
+    color: white;
+    font-size: 32px;
+    font-family: prompt,sans-serif;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 0px 0px;
+}
+h3{
+    color: #B29D00;
+    font-size: 18.72px;
+    font-family: Prompt;
+    margin: 0px 0px 0px 30px;
+    padding: 10px 0px 0px;
+}
+div img{
+   
+    margin: 0px 20px;
+}
+footer .copyrights{
+    margin-top: 60px;
+    margin-left: 20px;
+}

@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;}
+#bd{
+    background-color: #2F375B;
+    display: block;
+}
+nav{
+    background-color: #2F375B;
+    display: flex;/*lkol fard niveau*/
+}
+nav h1{
+    color: white;
+    margin-left:5%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: 'Times New Roman';
+    padding: 10px 0px;
+    font-weight: bold;
+    margin: 0px 0px 0px 54.9px;
+    /*kif t7ot el curseur  3al h1 tepointi (todher yed)*/ 
+}
+ul{
+    display: flex;
+    margin-left: 65%;
+    color:#2F375B; 
+}
+ul li{
+   
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+ul li a{
+    color:white;
+   text-decoration: none; 
+}
+.name{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    color: #DD4943;
+    font-size: 45px;
+    font-family: monospace;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+h4{
+    font-weight: bold;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.info section h4 {
+    font-size: 18px;
+    color: white;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;}
+
+.info section .imgs {
+   
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;}
+.info section img {
+            filter: brightness(0.7);
+            margin-top: 50px;
+            margin-left: 10px;
+            margin-right: 10px;
+            transition: 0.3s;}
+.info {
+            height: 80vh;
+            background-color: #2F375B;}
+footer{
+    display: flex;
+    background-color: #353535;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+    
+    
+
+
+footer .menuContact{
+    margin-bottom: 10px;
+}
+div{
+    display: block;
+}
+footer .menuSocial {
+    margin-top: 70px;
+}
+h1{
+    display: block;
+    color: white;
+    font-size: 32px;
+    font-family: prompt,sans-serif;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 0px 0px;
+}
+h3{
+    color: #B29D00;
+    font-size: 18.72px;
+    font-family: Prompt;
+    margin: 0px 0px 0px 30px;
+    padding: 10px 0px 0px;
+}
+div img{
+   
+    margin: 0px 20px;
+}
+footer .copyrights{
+    margin-top: 60px;
+    margin-left: 20px;
+}
